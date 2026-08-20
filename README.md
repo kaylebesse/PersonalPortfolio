@@ -8,16 +8,8 @@ Today I focus on front-end development and modern UI/UX practice — designing i
 
 Linkedin:https://www.linkedin.com/feed/
 Github:https://github.com/kaylebesse
-Please also add professional and modern UI/UX AI technical skills. 
-Please make the portfolio purple-pink or a feminine colour that will still be presented professionally and modern looking for a young woman in tech, still pursuing studies in Tech. Create a CV and link it to the downloadable cv link
+Email:kaylebesse@gmail.com
 
-**Live app**: https://katleho-kreates-tech.lovable.app
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3777ed03-c23e-4080-bc64-86f105827d68).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
