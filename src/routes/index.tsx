@@ -297,7 +297,7 @@ function Portfolio() {
               <p>
                 Today I focus on front-end development and modern UI/UX practice — designing interfaces that
                 are beautiful, accessible and genuinely useful, while using AI as a partner to work smarter.
-                I am still pursuing my studies in tech, and I am open to internships, learnerships and
+                I am still pursuing my studies in tech, and I am open to learnerships and
                 junior developer opportunities where I can keep growing.
               </p>
             </div>
@@ -416,8 +416,8 @@ function Portfolio() {
         <Section id="contact" eyebrow="Contact" title="Let's build something together">
           <div className="card-surface p-8 md:p-10">
             <p className="max-w-2xl text-base leading-relaxed text-muted-foreground">
-              I am always open to internships, learnerships, junior developer roles and collaboration on
-              interesting projects. The quickest way to reach me is by email — I usually reply within a day.
+            I am always open to learnerships, junior developer roles and collaboration on
+            interesting projects. The quickest way to reach me is by email — I usually reply within a day.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               <a
