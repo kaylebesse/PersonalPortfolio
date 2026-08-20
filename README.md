@@ -1,18 +1,17 @@
 # I am Katleho Lebese
 
-I am Katleho Lebese. Create a professional personal portfolio website  that showcases a home page with a professional introduction, please write a professional introduction on my behalf. Write a "about me" section. Add technical skills and soft skills, Add 3 projects with descriptions and technologies used. Education, Matric. Certificates, AI Professional. Work experience, Shadow working in Retail and participation in work readiness program, digital and professional skills and AI tools and Emerging Technologies. Contact section, my email address is Kaylebesse@gmail.com. Include GitHub profile and linkedin. Downloadable cv
-Please include that I am a tech enthusiast and aspiring developer.
-I also acquire N3 certificate with engineering studies.
+I am Katleho Lebese. My journey into technology started with curiosity — wanting to understand how the apps and systems I use every day are actually built. That curiosity grew into a genuine passion for development, artificial intelligence and design.
+
+I hold a Matric certificate and an N3 Certificate in Engineering Studies, which gave me a strong analytical and technical base. I then earned an AI Professional certificate, where I learned how to work with AI tools responsibly and effectively, and completed a work readiness programme covering digital skills, professional skills and emerging technologies.
+
+Today I focus on front-end development and modern UI/UX practice — designing interfaces that are beautiful, accessible and genuinely useful, while using AI as a partner to work smarter. I am still pursuing my studies in tech, and I am open to learnerships and junior developer opportunities where I can keep growing.
+
 Linkedin:https://www.linkedin.com/feed/
 Github:https://github.com/kaylebesse
 Please also add professional and modern UI/UX AI technical skills. 
 Please make the portfolio purple-pink or a feminine colour that will still be presented professionally and modern looking for a young woman in tech, still pursuing studies in Tech. Create a CV and link it to the downloadable cv link
 
-This project was built with [Lovable](https://lovable.dev).
-
 **Live app**: https://katleho-kreates-tech.lovable.app
-
-## Build with Lovable
 
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/3777ed03-c23e-4080-bc64-86f105827d68).
 
