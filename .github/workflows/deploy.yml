@@ -41,8 +41,7 @@ jobs:
   run: |
     echo "=== ALL BUILD FILES ==="
     find dist -maxdepth 5 -type f | sort
-
-
+    
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
