@@ -37,11 +37,11 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Check build output
-        run: |
-          echo "=== dist contents ==="
-          find dist -maxdepth 3 -type f | head -100
-          test -f dist/client/index.html
+    - name: Check build output
+  run: |
+    echo "=== ALL BUILD FILES ==="
+    find dist -maxdepth 5 -type f | sort
+
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
