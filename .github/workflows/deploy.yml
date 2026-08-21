@@ -23,32 +23,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v2
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
-          bun-version: latest
+          node-version: 22
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v6
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: npm install
 
       - name: Build
-        run: bun run build
+        run: npm run build
 
-      - name: Inspect build output
+      - name: Check build output
         run: |
-          echo "=== Project ==="
-          ls -la
-
-          echo "=== dist ==="
-          if [ -d "dist" ]; then
-            find dist -maxdepth 2 -type f | head -100
-          else
-            echo "ERROR: dist directory was not created"
-            exit 1
-          fi
+          echo "=== dist contents ==="
+          ls -la dist
+          test -f dist/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
@@ -67,3 +60,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
