@@ -21,6 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
@@ -29,6 +34,9 @@ jobs:
 
       - name: Build
         run: bun run build
+
+      - name: List dist directory
+        run: ls -la dist || echo "dist directory not found"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -45,5 +53,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      
+  
+ 
       
