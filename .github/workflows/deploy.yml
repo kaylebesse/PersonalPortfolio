@@ -40,13 +40,13 @@ jobs:
       - name: Check build output
         run: |
           echo "=== dist contents ==="
-          ls -la dist
-          test -f dist/index.html
+          find dist -maxdepth 3 -type f | head -100
+          test -f dist/client/index.html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "./dist"
+          path: "./dist/client"
 
   deploy:
     runs-on: ubuntu-latest
@@ -60,4 +60,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
